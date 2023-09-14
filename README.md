@@ -1,8 +1,9 @@
-# React + Vite
+# Add at least 3 Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- In this project, when we click on the Select button then, the selected Course name will be added into the bookmark.
 
-Currently, two official plugins are available:
+- Same as, all the credit hour of each selected course's  will be added together and will be displayed in the total credit section of the bookmark.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- When the 'select' button is clicked, the prices of all the selected courses will be added together. The total cost will be displayed in a bookmark, and the remaining credit of 20 credits will also be shown in the bookmark.
+
+
