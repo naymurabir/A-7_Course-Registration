@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import PropTypes from 'prop-types';
 import Course from "../Course/Course";
 
-const Courses = () => {
+
+const Courses = ({ handleAddToBookMarks }) => {
 
     const [courses, setCourses] = useState([])
 
@@ -17,11 +19,16 @@ const Courses = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {
-                    courses.map(course => <Course key={course.id} course={course}></Course>)
+                    courses.map(course => <Course key={course.id} course={course} handleAddToBookMarks={handleAddToBookMarks}></Course>)
                 }
             </div>
         </div>
     );
 };
+
+Courses.propTypes = {
+    handleAddToBookMarks: PropTypes.func.isRequired
+}
+
 
 export default Courses;
