@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "cover_img": "https://i.ibb.co/GkDwyYh/Rectangle-2-2.png",
+        "title": "Introduction to C Programming",
+        "description": "Master the basics of C programming language and build a strong foundation.",
+        "price": 15000,
+        "credit": 3
+    },
+    {
+        "id": "2",
+        "cover_img": "https://i.ibb.co/f8G07kW/Rectangle-2-3.png",
+        "title": "Introduction to Algorithms",
+        "description": "Dive into the world of algorithms and data structures with practical examples.",
+        "price": 25000,
+        "credit": 4
+    },
+    {
+        "id": "3",
+        "cover_img": "https://i.ibb.co/zsp07f4/Rectangle-2-4.png",
+        "title": "Introduction to C++ for DSA",
+        "description": "Learn C++ programming specifically for competitive programming and data structures.",
+        "price": 10000,
+        "credit": 3
+    },
+    {
+        "id": "4",
+        "cover_img": "https://i.ibb.co/tsr8418/Rectangle-3.png",
+        "title": "Basic Data Structures",
+        "description": "Explore essential data structures used in computer science for problem-solving.",
+        "price": 35000,
+        "credit": 2
+    },
+    {
+        "id": "5",
+        "cover_img": "https://i.ibb.co/JrdYCk3/Rectangle-2.png",
+        "title": "Introduction to OOP Python",
+        "description": "Get hands-on experience with Object-Oriented Programming using Python.",
+        "price": 19000,
+        "credit": 2
+    },
+    {
+        "id": "6",
+        "cover_img": "https://i.ibb.co/TYmnMJG/Rectangle-2-5.png",
+        "title": "Software Engineering",
+        "description": "Learn the principles and best practices of software engineering for successful projects.",
+        "price": 20000,
+        "credit": 3
+    },
+    {
+        "id": "7",
+        "cover_img": "https://i.ibb.co/TTvtcRM/Rectangle-3-1.png",
+        "title": "AWS, Cloud Computing",
+        "description": "Explore Amazon Web Services (AWS) and the world of cloud computing.",
+        "price": 35000,
+        "credit": 5
+    },
+    {
+        "id": "8",
+        "cover_img": "https://i.ibb.co/3YRvXQQ/Rectangle-2-1.png",
+        "title": "Database (MySQL)",
+        "description": "Master the MySQL database system and become proficient in managing data.",
+        "price": 19000,
+        "credit": 4
+    },
+    {
+        "id": "9",
+        "cover_img": "https://i.ibb.co/rGKHM2X/Rectangle-2-6.png",
+        "title": "Problem-Solving Part",
+        "description": "Enhance your problem-solving abilities across various domains with practical challenges.",
+        "price": 20000,
+        "credit": 2
+    }
+]
