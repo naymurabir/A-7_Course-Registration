@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
 import Bookmark from '../Bookmark/Bookmark';
 
-const Bookmarks = ({ bookMarks, totalCredit, remainingCredit }) => {
+const Bookmarks = ({ bookMarks, totalCredit, remainingCredit, totalPrice }) => {
     return (
         <div className="md:w-1/3">
-
 
             <div className='bg-white shadow-md rounded ml-4 px-5'>
 
@@ -30,8 +29,9 @@ const Bookmarks = ({ bookMarks, totalCredit, remainingCredit }) => {
                 <hr />
 
                 <div>
-                    <h3 className='text-black font-normal text-sm py-3'>Total Price : USD</h3>
+                    <h3 className='text-black font-normal text-sm py-3'>Total Price : {totalPrice} USD</h3>
                 </div>
+
             </div>
         </div>
     );
@@ -40,7 +40,8 @@ const Bookmarks = ({ bookMarks, totalCredit, remainingCredit }) => {
 Bookmarks.propTypes = {
     bookMarks: PropTypes.array.isRequired,
     totalCredit: PropTypes.number.isRequired,
-    remainingCredit: PropTypes.number.isRequired
+    remainingCredit: PropTypes.number.isRequired,
+    totalPrice: PropTypes.number.isRequired
 
 }
 
