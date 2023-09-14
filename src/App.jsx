@@ -21,7 +21,7 @@ function App() {
     let totalPrice = course.price
     let count = course.credit;
     if (isExist) {
-      return toast("The course is already Enrolled.")
+      return toast("The course is already enrolled.")
     } else {
 
       bookMarks.forEach(bookMark => {
@@ -35,7 +35,7 @@ function App() {
       const remainingCredit = 20 - count
 
       if (count > 20) {
-        return toast("You can't get over 20 credit!")
+        return toast("You can't take over 20 credits!")
       } else {
 
         setTotalCredit(count)

@@ -23,13 +23,13 @@ const Bookmarks = ({ bookMarks, totalCredit, remainingCredit, totalPrice }) => {
                 <hr />
 
                 <div>
-                    <h2 className='text-black font-normal text-sm py-3'>Total Credit Hour : {totalCredit} </h2>
+                    <h2 className='text-black font-semibold text-sm py-3'>Total Credit Hour : {totalCredit} </h2>
                 </div>
 
                 <hr />
 
                 <div>
-                    <h3 className='text-black font-normal text-sm py-3'>Total Price : {totalPrice} USD</h3>
+                    <h3 className='text-black font-semibold text-sm py-3'>Total Price : {totalPrice} USD</h3>
                 </div>
 
             </div>

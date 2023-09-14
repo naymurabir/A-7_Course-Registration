@@ -6,7 +6,7 @@ const Bookmark = ({ bookMark }) => {
     return (
 
         <>
-            <li className='list-decimal list-inside py-1'> {title} </li>
+            <li className='list-decimal list-inside py-1 text-gray-600'> {title} </li>
         </>
 
     );
