@@ -30,5 +30,4 @@ Courses.propTypes = {
     handleAddToBookMarks: PropTypes.func.isRequired
 }
 
-
 export default Courses;

@@ -50,11 +50,10 @@ function App() {
 
   }
 
-
   return (
     <>
       <Header></Header>
-      <div className='max-w-screen-xl mx-auto my-5 py-2 px-2 md:px-16 lg:px-24 flex flex-col md:flex-row lg:flex-row gap-4 md:gap-0'>
+      <div className='max-w-screen-xl mx-auto my-5 py-2 px-2 md:px-12 lg:px-10 flex flex-col md:flex-row lg:flex-row gap-4 md:gap-0'>
 
         <Courses handleAddToBookMarks={handleAddToBookMarks}></Courses>
 
@@ -65,5 +64,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
