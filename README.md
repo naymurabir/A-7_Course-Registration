@@ -1,8 +1,8 @@
 # Add at least 3 Project features
 
-- In this project, when we click on the Select button then, the selected Course name will be added into the bookmark.
+- In this project, when we click on the Select button then, the selected Course name will be added into the bookmark. Here no one can select more than one course. If someone try to click again then a toast alert will be shown.
 
-- Same as, all the credit hour of each selected course's  will be added together and will be displayed in the total credit hour section of the bookmark.
+- Same as, all the credit hours of each selected course's  will be added together and will be displayed in the total credit hours section of the bookmark. And no one can take over 20 credit hours of the courses.
 
 - When the 'select' button is clicked, the prices of all the selected courses will be added together. The total cost will be displayed in a bookmark, and the remaining credit of 20 credits will also be shown in the bookmark.
 
